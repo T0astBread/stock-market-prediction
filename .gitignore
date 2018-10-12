@@ -146,8 +146,15 @@ pip-selfcheck.json
 # Includes absolute paths (python.pythonPath)
 .vscode/settings.json
 
+# Is different on every machine
+.vscode/launch.json
+
 # TensorBoard logs
 logs/
 
 # Data (it's too big for GitHub)
 data_stocks.csv
+
+# Trained weights/models
+*.h5
+*.hdf5
